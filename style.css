@@ -1,0 +1,25 @@
+body {
+    background-image: url("Bg-removebg-preview.png");
+    background-size: cover;
+}
+#Snapshot_btn:hover {
+background-color: red;
+}
+h1{
+    color: darkblue;
+    }
+    #Snapshot_btn{
+        background-color: blue;
+        margin-top: 600px;
+        }
+
+        canvas {
+             margin-top: 70px;
+            animation-name: example;  /*The name that we are giving to the animation*/
+            animation-duration: 5s;   /*How many seconds we want our animation to stay*/
+            animation-iteration-count: infinite; /*How many times our animation should repeat*/
+        }
+        @keyframes example {
+            from {box-shadow: 1px 1px 40px red;}
+            to{box-shadow: 1px 1px 40px orange;}
+        }
